@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #837E9F;
+    font-size: 1.3vw;
+    /* border: 1px solid white; */
+}
+
+
+
+body {
+    background-color: #22212C;
+    display: flex;
+    margin: 2.5vw;
+}
+
+aside {
+    /* flex-grow: 1; */
+    margin-right: 5vw;
+    width: 25%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+
+main {
+    /* flex-grow: 2; */
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    background-color: #302F3D;
+    width: 22.5vw;
+    height: 22.5vw;
+    border-radius: 1.5vw;
+
+}
+
+.projectsMenu{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleMain {
+    background-color: #302F3D;
+    width: auto;
+    height: 3vw;
+    border-radius: 1.5vw;
+    margin-bottom: 2.5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vw;
+    padding-right: 0.8vw;
+}
+
+.titleMain a {
+    text-decoration: none;
+    background-color: rgb(93, 52, 176);
+    color: #b5b1df;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.titleMain a:hover {
+    color: white;
+}
+
+.projectList {
+    height: 100%;
+    display: flex;
+    gap: 2.5vw;
+}
+
+.project {
+    background-color: #302F3D;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5vw;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 2.5vw;
+}
+
+.iconTitle {
+    display: flex;
+    gap: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    align-items: center;
+}
+
+svg {
+    width: 1vw;
+    height: 1vw;
+}
+
+.projContent {
+    margin: 1.5vw 0;
+    display: flex;
+    text-align: justify;
+    font-size: 1vw;
+    line-height: 150%;
+}
+
+
+
+.groupIcon {
+    display: flex;
+    gap: 1vw;
+}
+
+.footerIcon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.postsMenu {
+    margin-top: 2.5vw;
+    height: 22.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    background-color: #302F3D;
+    width: 100%;
+    height: auto;
+    border-radius: 1.5vw;
+    text-decoration: none;
+
+    /* display: flex; */
+    padding: 2.5vw;
+}
+
+.profile {
+    padding: 1vw;
+    display: flex;
+
+}
+
+.profile div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5vw;
+    /* border: 1px solid white; */
+}
+
+.name {
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.function {
+    font-size: 65%;
+    font-weight: normal;
+}
+
+.profile .avatar {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    border: 3px solid greenyellow;
+    margin-bottom: 1.5vw;
+}
+
+.post .avatar {
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+}
+
+.post > div {
+    display: flex;
+    gap: 2.5vw;
+}
+
+.post > div > div {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+}
+
+.post > div > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.postTitle {
+    font-weight: bold;
+}
+
+.postDate {
+    font-size: .8vw;
+}
+
+.postContent > p {
+    font-size: 1vw;
+}
+
+.hashtags > p {
+    font-size: .8vw;
+}
+
+.hashtags {
+    display: flex;
+    gap: 2vw;
+}
+
+.infos, .techs {
+    background-color: #302F3D;
+    width: 22.5vw;
+    height: auto;
+    border-radius: 1.5vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.infos .iconTitle {
+    display: flex;
+    gap: 1.5vw;
+    font-size: 1.1vw;
+    font-weight: normal;
+    align-items: center;
+}
+
+.infos svg {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.techs .name {
+    font-size: 100%;
+    margin-bottom: .5vw;
+}
+
+.techsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .6vw;
+}
+
+.tech {
+    width: 31%;
+    height: 2.5vw;
+    border-radius: .8vw;
+    background-color: rgb(71, 40, 134);
+    display: flex;
+    align-items: center;
+}
+.tech div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tech p {
+    font-size: 60%;
+}
